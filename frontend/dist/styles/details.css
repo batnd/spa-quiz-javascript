@@ -1,0 +1,107 @@
+.answers {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.answers .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.answers-pre-title.pre-title {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    /*margin-bottom: 60px;*/
+}
+.answers-pre-title.pre-title span {
+    color: #6933DC;
+}
+
+.answers-title {
+    font-family: 'Museo Sans Cyrl Bold', sans-serif;
+    font-size: 54px;
+    line-height: 65px;
+}
+.answers-title span {
+    color: #6933DC;
+}
+
+.answers-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.answers-wrapper-question-title {
+    margin-bottom: 40px;
+}
+.answers-wrapper-question-title span {
+    color: #6933DC;
+}
+
+.answers-wrapper-question-option .answer-input-right {
+    border: 6px solid #5FDC33;
+}
+.answers-wrapper-question-option label.answer-text-right {
+    color: #5FDC33;
+}
+.answers-wrapper-question-option .answer-input-wrong {
+    border: 6px solid #DC3333;
+}
+.answers-wrapper-question-option label.answer-text-wrong {
+    color: #DC3333;
+}
+.answers-wrapper-question-option .answer-input-right::before,
+.answers-wrapper-question-option .answer-input-wrong::before {
+    content: unset;
+}
+
+.move-results {
+    align-self: flex-end;
+}
+
+.userName {
+    font-size: 20px;
+    line-height: 24px;
+}
+.userName span {
+    color: #6933DC;
+}
+
+.question-title {
+    font-size: 36px;
+    line-height: 43px;
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+}
+
+.question-option {
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.question-option label {
+    cursor: pointer;
+}
+
+.pre-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #DCDCF3;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #6933DC;
+    border-radius: 50%;
+    margin: 0 13px 0 0;
+    transform: translateY(2px);
+
+    display: grid;
+    place-content: center;
+    flex-shrink: 0;
+}
